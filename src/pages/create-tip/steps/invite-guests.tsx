@@ -5,6 +5,7 @@ interface InviteGuestsStepProps {
   openGuestsModal: () => void;
   openConfirmTripModal: () => void;
   emailsToInvite: string[];
+  setError: React.Dispatch<React.SetStateAction<string | null>>;
 }
 
 export function InviteGuestsStep({
