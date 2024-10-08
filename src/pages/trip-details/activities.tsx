@@ -38,7 +38,7 @@ export function Activities() {
               </span>
             </div>
             {category.activities.length > 0 ? (
-              <div>
+              <div className="space-y-2.5">
                 {category.activities.map((activity) => {
                   return (
                     <div className="space-y-2.5" key={activity.id}>
